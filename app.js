@@ -1,41 +1,41 @@
 // chapter no 9 
 // Q1
-// var cityName = prompt("Please enter a city name:");
+var cityName = prompt("Please enter a city name:");
 
-// if (cityName && "karachi") {
-//     console.log("Welcome to the city of lights");
-// } else {
-//     console.log("Welcome to " + cityName);
-// }
+if (cityName && "karachi") {
+    console.log("Welcome to the city of lights");
+} else {
+    console.log("Welcome to " + cityName);
+}
 // Q2
-// var gender = prompt("Please enter your gender (male/female):");
-// if (gender === "male") {
-//     console.log("Good Morning Sir.");
-// } else if (gender === "female") {
-//     console.log("Good Morning Ma'am.");
-// } else {
-//     console.log("Invalid gender entered.");
-// }
+var gender = prompt("Please enter your gender (male/female):");
+if (gender === "male") {
+    console.log("Good Morning Sir.");
+} else if (gender === "female") {
+    console.log("Good Morning Ma'am.");
+} else {
+    console.log("Invalid gender entered.");
+}
 // Q3
-// var color = prompt("Please enter the color of the traffic signal (Red/Yellow/Green):");
+var color = prompt("Please enter the color of the traffic signal (Red/Yellow/Green):");
 
-// color = color.toLowerCase();
+color = color.toLowerCase();
 
-// if (color ==="red") {
-//     console.log("Must Stop");
+if (color ==="red") {
+    console.log("Must Stop");
 
-// }
-// else if( color ==="yellow"){
-//     console.log("Ready to move");
+}
+else if( color ==="yellow"){
+    console.log("Ready to move");
 
-// }
-// else if(color ==="green"){
-//     console.log("Move now");
-// }
-// else{
-//     console.log("Invalid color entered. Please enter Red, Yellow, or Green.");
+}
+else if(color ==="green"){
+    console.log("Move now");
+}
+else{
+    console.log("Invalid color entered. Please enter Red, Yellow, or Green.");
 
-// }
+}
 // Q4
 var remainingFuel = +prompt("Please enter the remaining fuel in your car in liters:");
 
